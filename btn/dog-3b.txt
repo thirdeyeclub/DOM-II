@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+
+<body style="background-color:black;">
+        <div class="modal" >
+                <p class="message">
+                        You are already asleep. <br>
+                        You are already aware.<br>
+                        That this is your dream<br>
+                        and you can do anything you want
+                </p>
+                <div class="options">
+                  <a href="" class="btn">give birth</a>
+                </div>
+              </div>
+              
+</body>

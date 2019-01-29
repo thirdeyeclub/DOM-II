@@ -1,4 +1,6 @@
 // Your code goes here
+
+//1
 function popup(mylink, windowname) { 
     if (! window.focus)return true;
     var href;
@@ -8,6 +10,7 @@ function popup(mylink, windowname) {
     return false; 
   }
 
+  //2
   const Sbtn = document.querySelector('.destination .btn');
     Sbtn.addEventListener('click', e => {
        // document.body.style.backgroundColor = "linear-gradient(#FFF200 0%, #FFFFFF)";
@@ -20,5 +23,7 @@ function popup(mylink, windowname) {
 //        button.style.visibility = "hidden";
 //});
 
-
-
+//3 
+window.addEventListener('scroll', () => {
+    console.log("MOVE IT! MOVE IT!")
+})

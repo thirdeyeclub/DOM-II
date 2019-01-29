@@ -17,40 +17,49 @@ function popup(mylink, windowname) {
        document.body.style.backgroundColor = "#FFF200";
 });
 
+//3
 //tried to make the Great btn dispaer but couldnt figure out how :(
 //const Gbtn = document.querySelector('.modal .message .options .btn1');
 //    Sbtn.addEventListener('click', e => {
 //        button.style.visibility = "hidden";
 //});
 
-//3 
+//4
 window.addEventListener('scroll', () => {
     console.log("MOVE IT! MOVE IT!")
 })
 
-//4
+//5
 const topImg = document.querySelector('.intro img');
 document.addEventListener('wheel', e => {
     TweenMax.to('.intro', 1, {rotation:-2})
 });
 
-//5
+//6
 const mapImg = document.querySelector('.img-content img');
 mapImg.addEventListener('dblclick', e => {
     TweenMax.to('.img-content', 1, {scaleY:1.2, scaleX:1.2});
 });
 
-//6
-const navA = document.querySelectorAll('nav')
-    navA.addEventListener('click', e => {
-    
-    document.body.style.color = "#FFF200";
-});
+//7 currently bugged
+//const navA = document.querySelectorAll('nav')
+//    navA.addEventListener('click', e => {
+//    
+//    document.body.style.color = "#FFF200";
+//});
 
-//7
+//8
 const body = document.querySelector('body')
 body.addEventListener('dblclick', () => { 
     location.reload();
 });
 
-//8
+//9
+const change = document.querySelector('.content-destination img');
+change.addEventListener("mouseover", e => {
+    console.log(e);
+    document.getElementsByTagName("img").src = "img/Hell.jpg";
+       }
+)
+
+//10

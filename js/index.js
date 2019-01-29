@@ -27,3 +27,30 @@ function popup(mylink, windowname) {
 window.addEventListener('scroll', () => {
     console.log("MOVE IT! MOVE IT!")
 })
+
+//4
+const topImg = document.querySelector('.intro img');
+document.addEventListener('wheel', e => {
+    TweenMax.to('.intro', 1, {rotation:-2})
+});
+
+//5
+const mapImg = document.querySelector('.img-content img');
+mapImg.addEventListener('dblclick', e => {
+    TweenMax.to('.img-content', 1, {scaleY:1.2, scaleX:1.2});
+});
+
+//6
+const navA = document.querySelectorAll('nav')
+    navA.addEventListener('click', e => {
+    
+    document.body.style.color = "#FFF200";
+});
+
+//7
+const body = document.querySelector('body')
+body.addEventListener('dblclick', () => { 
+    location.reload();
+});
+
+//8

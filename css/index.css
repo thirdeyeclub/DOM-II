@@ -162,6 +162,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  order: 2;
 }
 .container {
   max-width: 800px;
@@ -186,6 +187,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  order: 0;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container {

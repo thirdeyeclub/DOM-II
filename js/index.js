@@ -8,4 +8,17 @@ function popup(mylink, windowname) {
     return false; 
   }
 
-  
+  const Sbtn = document.querySelector('.destination .btn');
+    Sbtn.addEventListener('click', e => {
+       // document.body.style.backgroundColor = "linear-gradient(#FFF200 0%, #FFFFFF)";
+       document.body.style.backgroundColor = "#FFF200";
+});
+
+//tried to make the Great btn dispaer but couldnt figure out how :(
+//const Gbtn = document.querySelector('.modal .message .options .btn1');
+//    Sbtn.addEventListener('click', e => {
+//        button.style.visibility = "hidden";
+//});
+
+
+

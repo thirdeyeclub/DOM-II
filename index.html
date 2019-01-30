@@ -8,7 +8,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
+  <audio id="my_audio" src="Tank.mp3" loop="loop"></audio>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   <script src="js/index.js" async></script>
 
   <!--[if lt IE 9]>
@@ -16,7 +17,7 @@
   <![endif]-->
 </head>
 
-<body>
+<body onLoad="popup('autopopup.html', 'ad')">
 
   <header class="main-navigation">
     <div class="container nav-container">
@@ -25,7 +26,7 @@
         <a class="nav-link" href="#">Home</a>
         <a class="nav-link" href="#">About Us</a>
         <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="https://suicidepreventionlifeline.org/">Contact Us</a>
       </nav>
     </div>
   </header>
@@ -67,7 +68,7 @@
       <div class="destination">
         <h4>Fun In The Sun</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <div class="btn">MAKE IT SUNNY!</div>
       </div>
       <div class="destination">
         <h4>Mountain Excursion</h4>

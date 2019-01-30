@@ -39,6 +39,7 @@ document.addEventListener('wheel', e => {
 const mapImg = document.querySelector('.img-content img');
 mapImg.addEventListener('dblclick', e => {
     TweenMax.to('.img-content', 1, {scaleY:1.2, scaleX:1.2});
+    e.stopPropagation();
 });
 
 //7 currently bugged
@@ -57,9 +58,13 @@ body.addEventListener('dblclick', () => {
 //9
 const change = document.querySelector('.content-destination img');
 change.addEventListener("mouseover", e => {
+    
+    document.getElementsByTagName("img")[3].src = "img/Hell.jpg";
     console.log(e);
-    document.getElementsByTagName("img").src = "img/Hell.jpg";
        }
 )
 
 //10
+window.onload = () => {
+    document.getElementById("my_audio").play();
+}
